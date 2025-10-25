@@ -1,13 +1,15 @@
 .movie-card {
-  position: relative;
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
   background-color: #1a1a1a;
   transition: transform 0.2s;
   height: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 200px; /* add this to limit card width */
+  margin: 0 auto;
 }
+
 
 .movie-card:hover {
   transform: translateY(-5px);
