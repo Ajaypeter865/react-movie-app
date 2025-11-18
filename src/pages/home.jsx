@@ -35,6 +35,8 @@ function Home() {
 
     const handleSearch = (e) => {
         e.preventDefault()
+
+        
       if(!searchQuery.trim()) return
       if(loading) return 
       
